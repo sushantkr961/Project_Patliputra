@@ -1,0 +1,43 @@
+.feature .boxes {
+  box-shadow: 0 0 20px 0 rgb(112 121 138 / 18%);
+  border-radius: 6px;
+  text-align: center;
+  cursor: pointer;
+}
+.boxes {
+  width: 450px;
+  background-color: #ffffff;
+  padding: 40px 20px;
+}
+.boxes:hover {
+  transform: scale(1.05);
+}
+.boxes h2,
+p {
+  padding: 20px;
+}
+.boxes img {
+  width: 100%;
+}
+.btn {
+  font-size: medium;
+  margin-top: 20px;
+  background-color: #ffffff;
+  border: 2px solid #008cba;
+  color: #008cba;
+}
+.btn:hover {
+  color: #ffffff;
+  background-color: #008cba;
+}
+
+.cards {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.all {
+  background-color: #f7f9fc;
+  padding-left: 100px;
+  padding-right: 100px;
+}
